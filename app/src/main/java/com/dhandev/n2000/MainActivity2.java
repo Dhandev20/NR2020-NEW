@@ -29,7 +29,7 @@ public class MainActivity2 extends AppCompatActivity {
         Button energi = findViewById(R.id.btn_Energi);
         Button daya = findViewById(R.id.btn_Daya);
         Button termometer = findViewById(R.id.btn_Termometer);
-
+//buat perubahan pada code
         panjang.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
