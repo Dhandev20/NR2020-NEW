@@ -30,14 +30,6 @@ public class MainActivity2 extends AppCompatActivity {
         Button daya = findViewById(R.id.btn_Daya);
         Button termometer = findViewById(R.id.btn_Termometer);
 
-
-        Info.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent intent = new Intent(MainActivity2.this, InformasiProduk.class);
-                startActivity(intent);
-            }
-        });
         panjang.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
