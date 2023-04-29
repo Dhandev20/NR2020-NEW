@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.dhandev.n2000">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/g1122"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/g1122"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="com.dhandev.n2000.Daya"
+            android:exported="false" />
+        <activity
+            android:name="com.dhandev.n2000.Energi"
+            android:exported="false" />
+        <activity
+            android:name="com.dhandev.n2000.Tekanan"
+            android:exported="false" />
+        <activity
+            android:name="com.dhandev.n2000.Gaya"
+            android:exported="false" />
+        <activity
+            android:name="com.dhandev.n2000.Waktu"
+            android:exported="false" />
+        <activity
+            android:name="com.dhandev.n2000.Sudut"
+            android:exported="false" />
+        <activity
+            android:name="com.dhandev.n2000.Kecepatan"
+            android:exported="false" />
+        <activity
+            android:name="com.dhandev.n2000.Volume"
+            android:exported="false" />
+        <activity
+            android:name="com.dhandev.n2000.Luas"
+            android:exported="false" />
+        <activity
+            android:name="com.dhandev.n2000.Massa"
+            android:exported="false" />
+        <activity
+            android:name="com.dhandev.n2000.Panjang"
+            android:exported="false" />
+        <activity
+            android:name="com.dhandev.n2000.MainActivity2"
+            android:exported="false" />
+        <activity
+            android:name="com.dhandev.n2000.Poisueille"
+            android:exported="false" />
+        <activity android:name="com.dhandev.n2000.Kacamata" />
+        <activity android:name="com.dhandev.n2000.Keker" />
+        <activity android:name="com.dhandev.n2000.HukumKepplerVar" />
+        <activity android:name="com.dhandev.n2000.GasIdealVariabel" />
+        <activity android:name="com.dhandev.n2000.GravitasiVariabel" />
+        <activity android:name="com.dhandev.n2000.RadioAktif" />
+        <activity android:name="com.dhandev.n2000.EnergiIkat" />
+        <activity android:name="com.dhandev.n2000.Kuantum" />
+        <activity android:name="com.dhandev.n2000.Optik" />
+        <activity android:name="com.dhandev.n2000.GeraklurusBeraturan" />
+        <activity android:name="com.dhandev.n2000.MasterLayout" />
+        <activity android:name="com.dhandev.n2000.InformasiProduk" />
+        <activity android:name="com.dhandev.n2000.DeltaStar" />
+        <activity android:name="com.dhandev.n2000.ArusBolakBalik" />
+        <activity android:name="com.dhandev.n2000.PindahPanas" />
+        <activity android:name="com.dhandev.n2000.Relativitas" />
+        <activity android:name="com.dhandev.n2000.FisikaInti" />
+        <activity android:name="com.dhandev.n2000.InduksiElektroMagnet" />
+        <activity android:name="com.dhandev.n2000.MedanMagnet" />
+        <activity android:name="com.dhandev.n2000.HukumGauss" />
+        <activity android:name="com.dhandev.n2000.HukumCoulomb" />
+        <activity android:name="com.dhandev.n2000.Gelombang" />
+        <activity android:name="com.dhandev.n2000.Termodinamika" />
+        <activity android:name="com.dhandev.n2000.GasIdeal" />
+        <activity android:name="com.dhandev.n2000.Hidrodinamik" />
+        <activity android:name="com.dhandev.n2000.Hidrostatik" />
+        <activity android:name="com.dhandev.n2000.TranslasiRotasi" />
+        <activity android:name="com.dhandev.n2000.DinamikaRotasi" />
+        <activity android:name="com.dhandev.n2000.Momentum" />
+        <activity android:name="com.dhandev.n2000.Usaha" />
+        <activity android:name="com.dhandev.n2000.Osilasi" />
+        <activity android:name="com.dhandev.n2000.HukumHooke" />
+        <activity android:name="com.dhandev.n2000.Elastisitas" />
+        <activity android:name="com.dhandev.n2000.Gravitasi" />
+        <activity android:name="com.dhandev.n2000.HukumKepler" />
+        <activity android:name="com.dhandev.n2000.GerakParabola" />
+        <activity android:name="com.dhandev.n2000.RangkaianHambatan" />
+        <activity android:name="com.dhandev.n2000.SeriParalel" />
+        <activity android:name="com.dhandev.n2000.HukumOhm" />
+        <activity android:name="com.dhandev.n2000.Kalori" />
+        <activity android:name="com.dhandev.n2000.Pemuaian" />
+        <activity android:name="com.dhandev.n2000.TermoMeter" />
+        <activity android:name="com.dhandev.n2000.Teropong" />
+        <activity android:name="com.dhandev.n2000.Mikroskop" />
+        <activity android:name="com.dhandev.n2000.Lup" />
+        <activity android:name="com.dhandev.n2000.CerminLensa" />
+        <activity android:name="com.dhandev.n2000.HukumNewton" />
+        <activity android:name="com.dhandev.n2000.GerakMelingkar" />
+        <activity android:name="com.dhandev.n2000.GerakLurus" />
+        <activity android:name="com.dhandev.n2000.MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

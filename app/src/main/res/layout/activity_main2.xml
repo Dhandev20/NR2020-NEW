@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".MainActivity2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <RelativeLayout
+            android:layout_marginTop="32dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp">
+
+            <ImageView
+                android:id="@+id/icon"
+                android:layout_centerHorizontal="true"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/g1122" />
+
+
+            <TextView
+                android:id="@+id/Firstext"
+                android:layout_width="370dp"
+                android:layout_height="30dp"
+                android:layout_below="@id/icon"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="6dp"
+                android:background="#DD2C00"
+                android:gravity="center"
+                android:text="Kalkulator Konversi Satuan"
+                android:textColor="#ffffff"
+                android:textSize="20sp" />
+
+
+
+        </RelativeLayout>
+        <Button
+            android:id="@+id/btn_Info"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/roundedbutton"
+            android:text="Informasi Produk"
+            android:drawableLeft="@drawable/info"
+            android:textAllCaps="false"
+            android:textSize="20sp"
+            android:layout_gravity="center"
+            android:elevation="40dp"/>
+
+
+<!--        //baris satu-->
+        <GridLayout
+            android:layout_width="315dp"
+            android:layout_height="120dp"
+            android:layout_marginTop="20dp"
+            android:columnCount="3"
+            android:columnOrderPreserved="false"
+            android:rowCount="3"
+            android:useDefaultMargins="true"
+            android:layout_gravity="center">
+
+            <Button
+                android:id="@+id/btn_Panjang"
+                android:layout_width="150dp"
+                android:layout_height="110dp"
+                android:background="@drawable/roundedbutton"
+                android:drawableTop="@drawable/g_lurus"
+                android:elevation="40dp"
+                android:firstBaselineToTopHeight="30dp"
+                android:text="Panjang"
+                android:textAllCaps="false"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/btn_Massa"
+                android:layout_width="150dp"
+                android:layout_height="110dp"
+                android:background="@drawable/roundedbutton"
+                android:drawableTop="@drawable/g_lingkar2"
+                android:elevation="40dp"
+                android:firstBaselineToTopHeight="30dp"
+                android:text="Massa"
+                android:textAllCaps="false"
+                android:textSize="20sp" />
+
+        </GridLayout>
+        //baris dua
+        <GridLayout
+            android:layout_width="315dp"
+            android:layout_height="120dp"
+            android:layout_marginTop="20dp"
+            android:columnCount="3"
+            android:columnOrderPreserved="false"
+            android:rowCount="3"
+            android:useDefaultMargins="true"
+            android:layout_gravity="center">
+
+            <Button
+                android:id="@+id/btn_Time"
+                android:layout_width="150dp"
+                android:layout_height="110dp"
+                android:background="@drawable/roundedbutton"
+                android:drawableTop="@drawable/h_newton"
+                android:elevation="40dp"
+                android:firstBaselineToTopHeight="30dp"
+                android:text="Waktu"
+                android:textAllCaps="false"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/btn_Luas"
+                android:layout_width="150dp"
+                android:layout_height="110dp"
+                android:background="@drawable/roundedbutton"
+                android:drawableTop="@drawable/lens"
+                android:elevation="40dp"
+                android:firstBaselineToTopHeight="30dp"
+                android:text="luas"
+                android:textAllCaps="false"
+                android:textSize="20sp" />
+
+        </GridLayout>
+
+        //baris tiga
+        <GridLayout
+            android:layout_width="315dp"
+            android:layout_height="120dp"
+            android:layout_marginTop="20dp"
+            android:columnCount="3"
+            android:columnOrderPreserved="false"
+            android:rowCount="3"
+            android:useDefaultMargins="true"
+            android:layout_gravity="center">
+
+            <Button
+                android:id="@+id/btn_Volume"
+                android:layout_width="150dp"
+                android:layout_height="110dp"
+                android:layout_row="0"
+                android:layout_column="0"
+                android:background="@drawable/roundedbutton"
+                android:drawableTop="@drawable/lup"
+                android:elevation="40dp"
+                android:firstBaselineToTopHeight="30dp"
+                android:text="Volume"
+                android:textAllCaps="false"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/btn_Sudut"
+                android:layout_width="150dp"
+                android:layout_height="110dp"
+                android:background="@drawable/roundedbutton"
+                android:drawableTop="@drawable/microscope"
+                android:elevation="40dp"
+                android:firstBaselineToTopHeight="30dp"
+                android:text="Sudut"
+                android:textAllCaps="false"
+                android:textSize="20sp" />
+
+        </GridLayout>
+
+        //baris empat
+        <GridLayout
+            android:layout_width="315dp"
+            android:layout_height="120dp"
+            android:layout_marginTop="20dp"
+            android:columnCount="3"
+            android:columnOrderPreserved="false"
+            android:rowCount="3"
+            android:useDefaultMargins="true"
+            android:layout_gravity="center">
+
+            <Button
+                android:id="@+id/btn_Kecepatan"
+                android:layout_width="150dp"
+                android:layout_height="110dp"
+                android:background="@drawable/roundedbutton"
+                android:drawableTop="@drawable/teropong"
+                android:elevation="40dp"
+                android:firstBaselineToTopHeight="30dp"
+                android:text="Kecepatan"
+                android:textAllCaps="false"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/btn_Gaya"
+                android:layout_width="150dp"
+                android:layout_height="110dp"
+                android:background="@drawable/roundedbutton"
+                android:drawableTop="@drawable/termometer"
+                android:elevation="40dp"
+                android:firstBaselineToTopHeight="30dp"
+                android:text="Gaya"
+                android:textAllCaps="false"
+                android:textSize="20sp" />
+
+        </GridLayout>
+
+        //baris lima
+        <GridLayout
+            android:layout_width="315dp"
+            android:layout_height="120dp"
+            android:layout_marginTop="20dp"
+            android:columnCount="3"
+            android:columnOrderPreserved="false"
+            android:rowCount="3"
+            android:useDefaultMargins="true"
+            android:layout_gravity="center">
+
+            <Button
+                android:id="@+id/btn_Tekanan"
+                android:layout_width="150dp"
+                android:layout_height="110dp"
+                android:background="@drawable/roundedbutton"
+                android:drawableTop="@drawable/pemuaian"
+                android:elevation="40dp"
+                android:firstBaselineToTopHeight="30dp"
+                android:text="Tekanan"
+                android:textAllCaps="false"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/btn_Energi"
+                android:layout_width="150dp"
+                android:layout_height="110dp"
+                android:background="@drawable/roundedbutton"
+                android:drawableTop="@drawable/kalori"
+                android:elevation="40dp"
+                android:firstBaselineToTopHeight="30dp"
+                android:text="Energi"
+                android:textAllCaps="false"
+                android:textSize="20sp" />
+
+        </GridLayout>
+        //baris enam
+        <GridLayout
+            android:layout_width="315dp"
+            android:layout_height="120dp"
+            android:layout_marginTop="20dp"
+            android:columnCount="3"
+            android:columnOrderPreserved="false"
+            android:rowCount="3"
+            android:useDefaultMargins="true"
+            android:layout_gravity="center">
+
+            <Button
+                android:id="@+id/btn_Daya"
+                android:layout_width="150dp"
+                android:layout_height="110dp"
+                android:background="@drawable/roundedbutton"
+                android:drawableTop="@drawable/pemuaian"
+                android:elevation="40dp"
+                android:firstBaselineToTopHeight="30dp"
+                android:text="Daya"
+                android:textAllCaps="false"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/btn_Termometer"
+                android:layout_width="150dp"
+                android:layout_height="110dp"
+                android:background="@drawable/roundedbutton"
+                android:drawableTop="@drawable/termometer"
+                android:elevation="40dp"
+                android:firstBaselineToTopHeight="30dp"
+                android:text="Temperatur"
+                android:textAllCaps="false"
+                android:textSize="20sp" />
+
+
+
+
+        </GridLayout>
+
+
+
+
+    </LinearLayout>
+
+</ScrollView>

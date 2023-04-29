@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#004D40"
+    android:foregroundGravity="center_vertical|center_horizontal"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="16dp"
+    tools:context=".Kecepatan"
+    tools:ignore="ExtraText">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tvbab"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="0dp"
+                android:background="@drawable/roundedbutton"
+                android:fontFamily="serif"
+                android:gravity="center"
+                android:text="KONVERSI KECEPATAN"
+                android:textColor="#080809"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+
+            <Button
+                android:id="@+id/btn_Info"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_below="@id/tvbab"
+                android:layout_marginTop="6dp"
+                android:background="@drawable/tombolhijau"
+                android:gravity="center"
+                android:text="Info kalkulator"
+                android:textAllCaps="false"
+                android:textColor="#000000"
+                android:textSize="25sp"
+                android:visibility="visible" />
+
+
+
+            <Button
+                android:id="@+id/btn_Hitung"
+                android:layout_width="186dp"
+                android:layout_height="45dp"
+                android:layout_marginLeft="0dp"
+                android:layout_below="@id/btn_Info"
+                android:background="@color/nol"
+                android:text="HITUNG"
+                android:textAllCaps="false"
+                android:textColor="#000309"
+                android:textSize="25sp"
+                android:textStyle="normal" />
+
+            <Button
+                android:id="@+id/btn_Hapus"
+                android:layout_width="186dp"
+                android:layout_height="45dp"
+                android:layout_marginLeft="189dp"
+                android:layout_below="@id/btn_Info"
+                android:background="@color/hapus"
+                android:text="HAPUS"
+                android:textAllCaps="false"
+                android:textColor="#000309"
+                android:textSize="25sp"
+                android:textStyle="normal" />
+
+            <EditText
+                android:id="@+id/in_mps"
+                android:layout_width="250dp"
+                android:layout_height="45dp"
+                android:layout_below="@id/btn_Hapus"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="10dp"
+                android:background="#FCFCFC"
+                android:gravity="center"
+                android:inputType="number|numberDecimal"
+                android:textColor="#000309"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/mps"
+                android:layout_width="130dp"
+                android:layout_height="45dp"
+                android:layout_below="@id/btn_Hapus"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@+id/in_mps"
+                android:background="#689F38"
+                android:fontFamily="serif"
+                android:gravity="center|left"
+                android:inputType="number"
+                android:text=" m/s "
+                android:textColor="#000309"
+                android:textSize="25sp" />
+
+            <EditText
+                android:id="@+id/in_kmpj"
+                android:layout_width="250dp"
+                android:layout_height="45dp"
+                android:layout_below="@id/mps"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="5dp"
+                android:background="#FCFCFC"
+                android:gravity="center"
+                android:inputType="number|numberDecimal"
+                android:textColor="#000309"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/kmpj"
+                android:layout_width="250dp"
+                android:layout_height="45dp"
+                android:layout_below="@id/mps"
+                android:layout_marginTop="5dp"
+                android:layout_toRightOf="@+id/in_kmpj"
+                android:background="#689F38"
+                android:fontFamily="@font/nova_mono"
+                android:gravity="center|left"
+                android:inputType="number"
+                android:text=" km/j "
+                android:textColor="#000309"
+                android:textSize="25sp" />
+
+            <EditText
+                android:id="@+id/in_mph"
+                android:layout_width="250dp"
+                android:layout_height="45dp"
+                android:layout_below="@id/kmpj"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="5dp"
+                android:background="#FCFCFC"
+                android:gravity="center"
+                android:inputType="number|numberDecimal"
+                android:textColor="#000309"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/mph"
+                android:layout_width="130dp"
+                android:layout_height="45dp"
+                android:layout_below="@id/kmpj"
+                android:layout_marginTop="5dp"
+                android:layout_toRightOf="@+id/in_mph"
+                android:background="#689F38"
+                android:fontFamily="serif"
+                android:gravity="center|left"
+                android:inputType="number"
+                android:text="mph "
+                android:textColor="#000309"
+                android:textSize="25sp" />
+
+            <EditText
+                android:id="@+id/in_fps"
+                android:layout_width="250dp"
+                android:layout_height="45dp"
+                android:layout_below="@id/mph"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="5dp"
+                android:background="#FCFCFC"
+                android:gravity="center"
+                android:inputType="number|numberDecimal"
+                android:textColor="#000309"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/fps"
+                android:layout_width="130dp"
+                android:layout_height="45dp"
+                android:layout_below="@id/mph"
+                android:layout_marginTop="5dp"
+                android:layout_toRightOf="@+id/in_fps"
+                android:background="#689F38"
+                android:fontFamily="serif"
+                android:gravity="center|left"
+                android:inputType="number"
+                android:text=" feet persecond(fps) "
+                android:textColor="#000309"
+                android:textSize="25sp" />
+
+            <EditText
+                android:id="@+id/in_knot"
+                android:layout_width="250dp"
+                android:layout_height="45dp"
+                android:layout_below="@id/fps"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="5dp"
+                android:background="#FCFCFC"
+                android:gravity="center"
+                android:inputType="number|numberDecimal"
+                android:textColor="#000309"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/knot"
+                android:layout_width="130dp"
+                android:layout_height="45dp"
+                android:layout_below="@id/fps"
+                android:layout_marginTop="5dp"
+                android:layout_toRightOf="@+id/in_knot"
+                android:background="#689F38"
+                android:fontFamily="serif"
+                android:gravity="center|left"
+                android:inputType="number"
+                android:text=" knot "
+                android:textColor="#000309"
+                android:textSize="25sp" />
+
+            <EditText
+                android:id="@+id/in_c"
+                android:layout_width="250dp"
+                android:layout_height="45dp"
+                android:layout_below="@id/knot"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="5dp"
+                android:background="#FCFCFC"
+                android:gravity="center"
+                android:inputType="number|numberDecimal"
+                android:textColor="#000309"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/c"
+                android:layout_width="130dp"
+                android:layout_height="45dp"
+                android:layout_below="@id/knot"
+                android:layout_marginTop="5dp"
+                android:layout_toRightOf="@+id/in_c"
+                android:background="#689F38"
+                android:fontFamily="serif"
+                android:gravity="center|left"
+                android:inputType="number"
+                android:text=" c "
+                android:textColor="#000309"
+                android:textSize="25sp" />
+
+
+
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

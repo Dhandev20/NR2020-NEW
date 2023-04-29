@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#56C4C5"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="16dp"
+    tools:context=".InformasiProduk"
+    tools:ignore="ExtraText">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp">
+
+            <Button
+                android:id="@+id/btn_Info"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="0dp"
+                android:background="@drawable/tombolhijau"
+                android:gravity="center"
+                android:text="Informasi Produk"
+                android:textAllCaps="false"
+                android:textColor="#000000"
+                android:textSize="30sp" />
+
+
+            <TextView
+                android:id="@+id/tvtampilan1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|end"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="80dp"
+                android:background="@drawable/tombolhijau"
+                android:gravity="center|start"
+                android:justificationMode="inter_word"
+                android:text="Kalkulator Pembelajaran Fisika NR 2020 ini dibuat dan dikembangkan untuk membantu siswa SMA dan atau mahasiswa baru dalam menyelesaikan soal-soal fisika. Kalkulator ini menuntun untuk menemukan persamaan yang digunakan. Suatu soal fisika mungkin terdiri banyak konsep yang berkaitan, sehingga persamaan yang digunakan bisa lebih dari dua (soal berbasis HOTS). Persamaan yang digunakan ditampilkan, dan juga persamaan akhir yang digunakan. Siswa diharapkan menuliskan persamaan dari besaran yang dicari, baru dimasukan nilai dari masing-masing variable dari persamaan tersebut. Contoh,  F = m*a, besaran yang ditanyakan a, maka nyatkan persamaan menjadi: a = F/m. Cara demikian akan membantu mengurangi kemungkinan salah hitung."
+                android:textColor="#000000"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/tvtampilan2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tvtampilan1"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="25dp"
+                android:background="@drawable/tombolhijau"
+                android:gravity="center|start"
+                android:justificationMode="inter_word"
+                android:text="Setiap besaran yang diketahui juga diberi keterangan satuannya, begitu juga hasil perhitungan suatu besaran juga disertai satuannya.     Struktur kalkulator ini mengikuti struktur penyelesaian soal fisika, yaitu diketahui besaran-besaran, ditanyakan dan penyelesaian atau solusi. Isikan nilai suatu besaran yang diketahui, sesuai satuan yang tertera. Bila satuannya belum sesuai maka harus disesuaikan terlebih dahulu (setelah diisi angka, satuan yang tampak samar akan hilang)."
+                android:textColor="#000000"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/tvtampilan3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tvtampilan2"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/tombolhijau"
+                android:gravity="center|start"
+                android:justificationMode="inter_word"
+                android:text="Bila kalkulator akan digunakan menyelesaian soal yang lain dalam bab yang sama, maka tekan Hapus untuk menghapus semua nilai variable termasuk hasil hitungan sebelumnya. Kalkulator ini dibuat sebagai panduan menyelsaikan soal fisika dan jangan disalahgunakan, yaitu menggantungkan jawaban dari kalkulator. Pandang kalkulator ini sebagai kunci jawaban, tetapi anda harus mengerjakan sendiri secara manual untuk bisa menyelesaikan soal fisika"
+                android:textColor="#000000"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/tvtampilan4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tvtampilan3"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/tombolhijau"
+                android:gravity="center|start"
+                android:justificationMode="inter_word"
+                android:text="Keterangan :"
+                android:textColor="#000000"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/tvtampilan5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tvtampilan4"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/tombolhijau"
+                android:gravity="center|start"
+                android:justificationMode="inter_word"
+                android:text="1. Alfa : sudut Antara gaya dan arah perpindahan."
+                android:textColor="#000000"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/tvtampilan6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tvtampilan5"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/tombolhijau"
+                android:gravity="center|start"
+                android:justificationMode="inter_word"
+                android:text="2. Teta : sudut bidang miring terhadap lantai."
+                android:textColor="#000000"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/tvtampilan7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tvtampilan6"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/tombolhijau"
+                android:gravity="center|start"
+                android:justificationMode="inter_word"
+                android:text="3. W : ada dua kemungkinan, work (usaha: joule) dan Weight (berat: N) : maka perhatikan satuannya!"
+                android:textColor="#000000"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/tvtampilan8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tvtampilan7"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/tombolhijau"
+                android:gravity="center|start"
+                android:justificationMode="inter_word"
+                android:text="4. Bila Varibel  berindeks dan diketahui hanya satu, maka gunakan indeks 1 atau a, contoh: m1, ma, v1, va dan seterusnya. Informasi lebih lanjut ada pada setiap kalkulator"
+                android:textColor="#000000"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/tvtampilan9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tvtampilan8"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/tombolhijau"
+                android:gravity="center|start"
+                android:justificationMode="inter_word"
+                android:text="Selamat belajar Fisika bersama Kalkulator Fisika NR2020."
+                android:textColor="#000000"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/tvtampilan10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tvtampilan9"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="6dp"
+                android:background="@drawable/tombolhijau"
+                android:gravity="start"
+                android:justificationMode="inter_word"
+                android:text="# Kalkulator Fisika NR2020 dikembangkan oleh : Nur Untoro, Program Studi Pendidikan Fisika Fakultas Ilmu Tarbiyah dan Keguruan UIN Sunan Kalijaga Yogyakarta dan Muhammad Ramdhan Program Studi Pendidikan Fisika Fakultas Keguruan dan Ilmu Pendidikan UAD Yogyakarta.# Kritik dan saran mohon dikrim ke 196611261996031001@uin-suka.ac.id atau WA: 081245547483  Yogyakarta, 17 Januari 2020 "
+                android:textColor="#0A0A0A"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvtampilan11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tvtampilan10"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/tombolhijau"
+                android:gravity="center|start"
+                android:justificationMode="inter_word"
+                android:text="#UI/UX Oleh: Muhammad Ramdhan, Program Studi Pendidikan Fisika - FKIP - Universitas Ahmad Dahlan"
+                android:textColor="#000000"
+                android:textSize="25sp" />
+
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+
+</RelativeLayout>
