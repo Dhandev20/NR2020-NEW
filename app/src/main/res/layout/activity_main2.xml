@@ -43,19 +43,6 @@
 
 
         </RelativeLayout>
-        <Button
-            android:id="@+id/btn_Info"
-            android:layout_width="250dp"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
-            android:background="@drawable/roundedbutton"
-            android:text="Informasi Produk"
-            android:drawableLeft="@drawable/info"
-            android:textAllCaps="false"
-            android:textSize="20sp"
-            android:layout_gravity="center"
-            android:elevation="40dp"/>
-
 
 <!--        //baris satu-->
         <GridLayout
@@ -73,7 +60,7 @@
                 android:layout_width="150dp"
                 android:layout_height="110dp"
                 android:background="@drawable/roundedbutton"
-                android:drawableTop="@drawable/g_lurus"
+                android:drawableTop="@drawable/ruler"
                 android:elevation="40dp"
                 android:firstBaselineToTopHeight="30dp"
                 android:text="Panjang"
@@ -85,7 +72,7 @@
                 android:layout_width="150dp"
                 android:layout_height="110dp"
                 android:background="@drawable/roundedbutton"
-                android:drawableTop="@drawable/g_lingkar2"
+                android:drawableTop="@drawable/mass"
                 android:elevation="40dp"
                 android:firstBaselineToTopHeight="30dp"
                 android:text="Massa"
@@ -93,7 +80,7 @@
                 android:textSize="20sp" />
 
         </GridLayout>
-        //baris dua
+<!--        //baris dua-->
         <GridLayout
             android:layout_width="315dp"
             android:layout_height="120dp"
@@ -109,7 +96,7 @@
                 android:layout_width="150dp"
                 android:layout_height="110dp"
                 android:background="@drawable/roundedbutton"
-                android:drawableTop="@drawable/h_newton"
+                android:drawableTop="@drawable/time"
                 android:elevation="40dp"
                 android:firstBaselineToTopHeight="30dp"
                 android:text="Waktu"
@@ -121,7 +108,7 @@
                 android:layout_width="150dp"
                 android:layout_height="110dp"
                 android:background="@drawable/roundedbutton"
-                android:drawableTop="@drawable/lens"
+                android:drawableTop="@drawable/space"
                 android:elevation="40dp"
                 android:firstBaselineToTopHeight="30dp"
                 android:text="luas"
@@ -130,7 +117,7 @@
 
         </GridLayout>
 
-        //baris tiga
+<!--        //baris tiga-->
         <GridLayout
             android:layout_width="315dp"
             android:layout_height="120dp"
@@ -148,7 +135,7 @@
                 android:layout_row="0"
                 android:layout_column="0"
                 android:background="@drawable/roundedbutton"
-                android:drawableTop="@drawable/lup"
+                android:drawableTop="@drawable/volume"
                 android:elevation="40dp"
                 android:firstBaselineToTopHeight="30dp"
                 android:text="Volume"
@@ -160,7 +147,7 @@
                 android:layout_width="150dp"
                 android:layout_height="110dp"
                 android:background="@drawable/roundedbutton"
-                android:drawableTop="@drawable/microscope"
+                android:drawableTop="@drawable/angle"
                 android:elevation="40dp"
                 android:firstBaselineToTopHeight="30dp"
                 android:text="Sudut"
@@ -169,7 +156,7 @@
 
         </GridLayout>
 
-        //baris empat
+<!--        //baris empat-->
         <GridLayout
             android:layout_width="315dp"
             android:layout_height="120dp"
@@ -185,7 +172,7 @@
                 android:layout_width="150dp"
                 android:layout_height="110dp"
                 android:background="@drawable/roundedbutton"
-                android:drawableTop="@drawable/teropong"
+                android:drawableTop="@drawable/speed"
                 android:elevation="40dp"
                 android:firstBaselineToTopHeight="30dp"
                 android:text="Kecepatan"
@@ -197,7 +184,7 @@
                 android:layout_width="150dp"
                 android:layout_height="110dp"
                 android:background="@drawable/roundedbutton"
-                android:drawableTop="@drawable/termometer"
+                android:drawableTop="@drawable/force"
                 android:elevation="40dp"
                 android:firstBaselineToTopHeight="30dp"
                 android:text="Gaya"
@@ -206,7 +193,7 @@
 
         </GridLayout>
 
-        //baris lima
+<!--        //baris lima-->
         <GridLayout
             android:layout_width="315dp"
             android:layout_height="120dp"
@@ -222,7 +209,7 @@
                 android:layout_width="150dp"
                 android:layout_height="110dp"
                 android:background="@drawable/roundedbutton"
-                android:drawableTop="@drawable/pemuaian"
+                android:drawableTop="@drawable/pressure"
                 android:elevation="40dp"
                 android:firstBaselineToTopHeight="30dp"
                 android:text="Tekanan"
@@ -242,7 +229,7 @@
                 android:textSize="20sp" />
 
         </GridLayout>
-        //baris enam
+<!--        //baris enam-->
         <GridLayout
             android:layout_width="315dp"
             android:layout_height="120dp"
@@ -251,6 +238,7 @@
             android:columnOrderPreserved="false"
             android:rowCount="3"
             android:useDefaultMargins="true"
+            android:layout_marginBottom="20dp"
             android:layout_gravity="center">
 
             <Button
@@ -258,7 +246,7 @@
                 android:layout_width="150dp"
                 android:layout_height="110dp"
                 android:background="@drawable/roundedbutton"
-                android:drawableTop="@drawable/pemuaian"
+                android:drawableTop="@drawable/energy"
                 android:elevation="40dp"
                 android:firstBaselineToTopHeight="30dp"
                 android:text="Daya"
@@ -270,7 +258,7 @@
                 android:layout_width="150dp"
                 android:layout_height="110dp"
                 android:background="@drawable/roundedbutton"
-                android:drawableTop="@drawable/termometer"
+                android:drawableTop="@drawable/temperature"
                 android:elevation="40dp"
                 android:firstBaselineToTopHeight="30dp"
                 android:text="Temperatur"
