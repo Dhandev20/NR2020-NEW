@@ -87,7 +87,7 @@ public class FisikaInti extends AppCompatActivity {
         Button btnv = findViewById ( R.id.btn_v );
         Button btnRv = findViewById ( R.id.btn_Rv );
         Button btnhapus = findViewById ( R.id.btn_Hapus );
-        Button btnnol = findViewById ( R.id.btn_Nol );
+
         Button btninfo = findViewById ( R.id.btn_Info );
         Button btnEi = findViewById ( R.id.btn_Ei );
         Button btnRa = findViewById ( R.id.btn_Ra );
@@ -222,10 +222,10 @@ public class FisikaInti extends AppCompatActivity {
                 if
                 ( n1n1!=0&&n2n2!=0 ) {
                     tampilan1.setText ( " Panjang gelombang foton yang muncul apabila  elektron pindah kulit n2 ke n1" );
-                    tampilan2.setText ( " 1/lamda = R (1/n1 -1/n2" );
+                    tampilan2.setText ( " 1/lamda = R {1/(n1)^2 -1/(n2)^2}" );
 
-                    n1n1 = 1/n1n1;
-                    n2n2 = 1/n2n2;
+                    n1n1 = 1/(n1n1*n1n1);
+                    n2n2 = 1/(n2n2*n2n2);
                     pg = 1.097*Math.pow(10,7)*(n1n1-n2n2);
                     pg = 1/pg;
 
@@ -241,11 +241,11 @@ public class FisikaInti extends AppCompatActivity {
                 if
                 ( n1n1!=0&&n2n2!=0 ) {
                     tampilan1.setText ( " Frekuensi foton yang muncul apabila  elektron pindah kulit n2 ke n1" );
-                    tampilan2.setText ( " 1/lamda = R (1/n1 -1/n2" );
+                    tampilan2.setText ( " 1/lamda = R {1/(n1)^2 -1/(n2)^2}" );
                     tampilan3.setText ( " f = c/lamda" );
 
-                    n1n1 = 1/n1n1;
-                    n2n2 = 1/n2n2;
+                    n1n1 = 1/(n1n1*n1n1);
+                    n2n2 = 1/(n2n2*n2n2);
                     pg = 1.097*Math.pow(10,7)*(n1n1-n2n2);
                     pg = 1/pg;
                     f = 3*Math.pow(10,8)/pg;
